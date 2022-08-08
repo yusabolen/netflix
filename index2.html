@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="result.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Ibarra+Real+Nova&display=swap"
+        rel="stylesheet">
+    <title>Netflex</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="s1">NET<span style="color:rgb(215, 25, 25);">FLIX</span></h1>
+
+    </div>
+
+    <div id="title">
+        <p>Thank you for signing up at Netflix. Tell us more about your self</p>
+    </div>
+
+    <div>
+        <form action="result.html" id="survey-form">
+            <div id="description">
+                <label for="ad">Name</label><br>
+                <input type="text" name="Name" id="ad" placeholder="Enter your name"><br><br>
+
+                <label for="age">Age</label><br>
+                <input type="number" name="Age" id="age" placeholder="Age"><br><br>
+
+                <label for="mail">Email</label><br>
+                <input type="email" name="Email" id="mail" placeholder="Enter your email"><br><br>
+
+                <label for="content">Content type</label><br>
+                <select name="content" id="content">
+                    <option value="series">Series</option>
+                    <option value="Netflex Originals">Netflex Originals</option>
+                    <option value="Documentarias">Documentarias</option>
+
+                </select>
+                <br><br>
+
+                <div>
+                    <p>Movie Type</p>
+                    <input type="checkbox" name="Comedy" id="co">
+                    <label for="co">Comedy</label><br>
+
+                    <input type="checkbox" name="Action" id="ac">
+                    <label for="ac">Action</label><br>
+
+                    <input type="checkbox" name="Romance" id="ro">
+                    <label for="ro">Romance</label>
+                </div>
+                <br><br>
+
+                <div>
+                    <p>Gender</p>
+                    <input type="radio" name="Gender" id="male">
+                    <label for="ma">Male</label><br>
+
+                    <input type="radio" name="Gender" id="female">
+                    <label for="fe">Female</label><br>
+
+                    <input type="radio" name="Gender" id="other">
+                    <label for="">Other</label>
+                </div>
+                <br><br>
+
+                <div>
+                    <label for="feedback">Feedback</label> <br>
+                    <textarea name="feedback" id="feedback" placeholder="Any Comment" cols="35" rows="6"></textarea>
+                </div>
+
+
+
+
+
+            </div>
+            <div class="cl1">
+                <input type="submit" value="Send">
+            </div>
+
+    </div>
+    </form>
+
+
+
+</body>
+
+</html>
